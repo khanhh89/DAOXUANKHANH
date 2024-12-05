@@ -37,7 +37,7 @@ int main(){
 				break;
 			case 3:
 				int songuyento;
-				printf("\nSo nguyen to co trong mang : ");
+				printf("\nSo nguyen to co trong mang : \n");
 				for(int i=0;i<n;i++){
 				if( arr[i]%2!=0 && arr[i]%3!=0 && arr[i]%5!=0){
 				songuyento = arr[i];
